@@ -14,12 +14,6 @@ This repository contains a structural Verilog implementation of the Xilinx Spart
 * `tb/`: Contains the ModelSim testbench (`tb_projectile_motion.v`), the Python visualization script (`plot_projectile.py`), and the generated output text file (`collision_data.txt`).
 * `docs/`: Contains the engineering documentation (`The_Math_Behind_the_Testbench.pdf`), the official Xilinx Spartan-6 DSP48A1 User Guide (`UG389.pdf`), and simulation assets.
 
-## Synthesis and Timing Analysis
-The design was synthesized using Intel Quartus Prime Lite Edition targeting a Cyclone V FPGA. By enabling internal pipeline registers within the DSP slice, the design achieved:
-* Logic Utilization: Less than 1 percent
-* DSP Blocks Used: 1
-* Maximum Frequency (Fmax): 116.6 MHz
-
 ## How to Run
 
 ### 1. Hardware Simulation (ModelSim)
